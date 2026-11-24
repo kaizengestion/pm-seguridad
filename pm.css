@@ -262,3 +262,8 @@ ul { list-style: none; margin: 0; padding: 0; }
 .burger span:nth-child(1) { top: 15px; } .burger span:nth-child(2) { top: 21px; } .burger span:nth-child(3) { top: 27px; }
 .burger[aria-expanded="true"] span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
 .burger[aria-expanded="true"] span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+
+/* Crédito Kaizen Gestión */
+.footer__kaizen { flex-basis: 100%; text-align: center; padding-top: 6px; }
+.footer__kaizen a { color: inherit; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+.footer__kaizen a:hover { opacity: .8; }
